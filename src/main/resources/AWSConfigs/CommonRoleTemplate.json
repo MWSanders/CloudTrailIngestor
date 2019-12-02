@@ -1,0 +1,68 @@
+[
+  {
+    name: "EC2",
+    displayName: "Amazon EC2",
+    description: "Allows EC2 instances to call AWS services on your behalf.",
+    filterPolicies: null,
+    trustPolicy: {
+      Version: "2012-10-17",
+      Statement: [
+        {
+          Effect: "Allow",
+          Action: [
+            "sts:AssumeRole"
+          ],
+          Principal: {
+            Service: [
+              "ec2.amazonaws.com"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    name: "DirectoryService",
+    displayName: "AWS Directory Service",
+    description: "Allows AWS Directory Service to manage access for existing directory users and groups to AWS services.",
+    filterPolicies: null,
+    trustPolicy: {
+      Version: "2012-10-17",
+      Statement: [
+        {
+          Effect: "Allow",
+          Action: [
+            "sts:AssumeRole"
+          ],
+          Principal: {
+            Service: [
+              "ds.amazonaws.com"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    name: "Lambda",
+    displayName: "AWS Lambda",
+    description: "Allows Lambda Function to call AWS services on your behalf.",
+    filterPolicies: null,
+    trustPolicy: {
+      Version: "2012-10-17",
+      Statement: [
+        {
+          Effect: "Allow",
+          Action: [
+            "sts:AssumeRole"
+          ],
+          Principal: {
+            Service: [
+              "lambda.amazonaws.com"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

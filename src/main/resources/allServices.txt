@@ -1,0 +1,430 @@
+{
+    "_id" : ObjectId("55e35ea6931f085ead5cbca9"),
+    "AWS Billing" : {
+        "_id" : 1,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Console Signin" : {
+        "_id" : 2,
+        "CloudTrailEnabled" : "O",
+        "CloudTrailName" : "signin",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "AWS CloudFormation" : {
+        "_id" : 3,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "cloudformation",
+        "IAMName" : "cloudformation",
+        "ResourceLevelControlled" : "Y"
+    },
+    "AWS CloudHSM" : {
+        "_id" : 4,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "cloudhsm",
+        "IAMName" : "cloudhsm",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS CodeCommit" : {
+        "_id" : 5,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "AWS CloudTrail" : {
+        "_id" : 6,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "cloudtrail",
+        "IAMName" : "cloudtrail",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS CodeDeploy" : {
+        "_id" : 7,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "codedeploy",
+        "IAMName" : "codedeploy",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS CodePipeline" : {
+        "_id" : 8,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "codepipeline",
+        "IAMName" : "codepipeline",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Config" : {
+        "_id" : 9,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "config",
+        "IAMName" : "config",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Device Farm" : {
+        "_id" : 10,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "devicefarm",
+        "IAMName" : "devicefarm",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Direct Connect" : {
+        "_id" : 11,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "directconnect",
+        "IAMName" : "directconnect",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Directory Service" : {
+        "_id" : 12,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "ds",
+        "IAMName" : "ds",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS ElastiCache" : {
+        "_id" : 13,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "elasticache",
+        "IAMName" : "elasticache",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Elastic Beanstalk" : {
+        "_id" : 14,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "elasticbeanstalk",
+        "IAMName" : "elasticbeanstalk",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Import Export" : {
+        "_id" : 15,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "AWS Identity and Access Management" : {
+        "_id" : 16,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "iam",
+        "IAMName" : "iam",
+        "ResourceLevelControlled" : "Y"
+    },
+    "AWS Key Management Service" : {
+        "_id" : 17,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "kms",
+        "IAMName" : "kms",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Marketplace" : {
+        "_id" : 18,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "AWS Marketplace Management Portal" : {
+        "_id" : 19,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "AWS Lambda" : {
+        "_id" : 20,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "lambda",
+        "IAMName" : "lambda",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS OpsWorks" : {
+        "_id" : 21,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "opsworks",
+        "IAMName" : "opsworks",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Trusted Advisor" : {
+        "_id" : 22,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon API Gateway" : {
+        "_id" : 23,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "execute-api",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon AppStream" : {
+        "_id" : 24,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "AWS Security Token Service" : {
+        "_id" : 25,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "sts",
+        "IAMName" : "sts",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon CloudFront" : {
+        "_id" : 26,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "cloudfront",
+        "IAMName" : "cloudfront",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon CloudSearch" : {
+        "_id" : 27,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "cloudsearch",
+        "IAMName" : "cloudsearch",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon CloudWatch Logs" : {
+        "_id" : 28,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "logs",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Cognito Identity" : {
+        "_id" : 29,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Cognito Sync" : {
+        "_id" : 30,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon CloudWatch" : {
+        "_id" : 31,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "monitoring",
+        "IAMName" : "cloudwatch",
+        "ResourceLevelControlled" : "Y"
+    },
+    "Amazon DynamoDB" : {
+        "_id" : 32,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "dynamodb",
+        "IAMName" : "dynamodb",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon EC2" : {
+        "_id" : 33,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "ec2",
+        "IAMName" : "ec2",
+        "ResourceLevelControlled" : "Y"
+    },
+    "Amazon EC2 Spot Fleet" : {
+        "_id" : 34,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "ec2",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Elastic File System" : {
+        "_id" : 35,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon EC2 Container Service" : {
+        "_id" : 36,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "ecs",
+        "IAMName" : "ecs",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Elastic MapReduce" : {
+        "_id" : 37,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "elasticmapreduce",
+        "IAMName" : "elasticmapreduce",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Elastic Transcoder" : {
+        "_id" : 38,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "elastictranscoder",
+        "IAMName" : "elastictranscoder",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Glacier" : {
+        "_id" : 39,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "glacier",
+        "IAMName" : "glacier",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Machine Learning" : {
+        "_id" : 40,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Mobile Analytics" : {
+        "_id" : 41,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Kinesis" : {
+        "_id" : 42,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "kinesis",
+        "IAMName" : "kinesis",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon RDS" : {
+        "_id" : 43,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "rds",
+        "IAMName" : "rds",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Redshift" : {
+        "_id" : 44,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "redshift",
+        "IAMName" : "redshift",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Route53 Domains" : {
+        "_id" : 45,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "route53domains",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon S3" : {
+        "_id" : 46,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Route 53" : {
+        "_id" : 47,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "route53",
+        "IAMName" : "route53",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon SES" : {
+        "_id" : 48,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "ses",
+        "IAMName" : "ses",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon SNS" : {
+        "_id" : 49,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "sns",
+        "IAMName" : "sns",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon Simple Systems Manager" : {
+        "_id" : 50,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon SQS" : {
+        "_id" : 51,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "sqs",
+        "IAMName" : "sqs",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon SimpleDB" : {
+        "_id" : 52,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Simple Workflow Service" : {
+        "_id" : 53,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "swf",
+        "IAMName" : "swf",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon WorkMail" : {
+        "_id" : 54,
+        "CloudTrailEnabled" : "N",
+        "CloudTrailName" : "",
+        "IAMName" : "",
+        "ResourceLevelControlled" : ""
+    },
+    "Amazon Storage Gateway" : {
+        "_id" : 55,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "storagegateway",
+        "IAMName" : "storagegateway",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon WorkSpaces Application Manager" : {
+        "_id" : 56,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "workspaces",
+        "IAMName" : "wam",
+        "ResourceLevelControlled" : "N"
+    },
+    "Auto Scaling" : {
+        "_id" : 57,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "autoscaling",
+        "IAMName" : "autoscaling",
+        "ResourceLevelControlled" : "N"
+    },
+    "Elastic Load Balancing" : {
+        "_id" : 58,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "elasticloadbalancing",
+        "IAMName" : "elasticloadbalancing",
+        "ResourceLevelControlled" : "Y"
+    },
+    "Manage - Amazon API Gateway" : {
+        "_id" : 59,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "apigateway",
+        "IAMName" : "apigateway",
+        "ResourceLevelControlled" : "N"
+    },
+    "AWS Data Pipeline" : {
+        "_id" : 60,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "datapipeline",
+        "IAMName" : "datapipeline",
+        "ResourceLevelControlled" : "N"
+    },
+    "Amazon WorkDocs" : {
+        "_id" : 61,
+        "CloudTrailEnabled" : "Y",
+        "CloudTrailName" : "workdocs",
+        "IAMName" : "zocalo",
+        "ResourceLevelControlled" : "N"
+    }
+}
